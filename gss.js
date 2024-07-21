@@ -124,8 +124,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "KING-RASH-WA";
+	const devlopernumber = "94717775628";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -925,7 +925,7 @@ const lowerText = m.text.toLowerCase();
 
 if (command === 'menu2') {
         await gss.sendMessage(m.chat, {
-            image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+            image: { url: 'https://telegra.ph/file/c212791e32e30df3b5e37.jpg' },
             caption: menuMessage,
             contextInfo: {
                 externalAdReply: {
@@ -945,7 +945,7 @@ if (command === 'menu2') {
 
             if (subMenu !== undefined) {
                 await gss.sendMessage(m.chat, {
-                    image: { url: 'https://telegra.ph/file/61eec5ebaeef2a046a914.jpg' },
+                    image: { url: 'https://telegra.ph/file/c212791e32e30df3b5e37.jpg' },
                     caption: subMenu,
                     contextInfo: {
                         externalAdReply: {
